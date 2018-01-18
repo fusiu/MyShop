@@ -10,6 +10,7 @@
     <modules>
         <module>myshop-dependencies</module>
         <module>myshop-database</module>
+        <module>myshop-module</module>
     </modules>
 
     <properties>

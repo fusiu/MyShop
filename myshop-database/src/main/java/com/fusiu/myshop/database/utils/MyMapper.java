@@ -10,10 +10,10 @@ import tk.mybatis.mapper.common.MySqlMapper;
  * <p>Title: MyMapper</p>
  * <p>Description: </p>
  *
+ * @param <T>
  * @author Fusiu
  * @version 1.0.0
- * @param <T>
  * @date 2018/1/18 19:17
  */
-public interface MyMapper<T> extends Mapper<T>,MySqlMapper<T> {
+public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T> {
 }
